@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #0095dd;
+  background-color: #b4b4fe;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -14,21 +14,23 @@ body {
 }
 
 h1 {
+  font-family: "Press Start 2P", cursive;
   font-size: 45px;
-  color: #fff;
+  color: #c2ed18;
 }
 
 canvas {
-  background: #f0f0f0;
+  background: #c2ed18;
   display: block;
   border-radius: 5px;
 }
 
 .btn {
+  font-family: "Press Start 2P", cursive;
   cursor: pointer;
   border: 0;
   padding: 10px 20px;
-  background: #000;
+  background: #bf94e4;
   color: #fff;
   border-radius: 5px;
 }
@@ -38,7 +40,7 @@ canvas {
 }
 
 .btn:hover {
-  background: #222;
+  background: #c2ed18;
 }
 
 .btn:active {
@@ -46,16 +48,19 @@ canvas {
 }
 
 .rules-btn {
+  background: #bf94e4;
+  font-family: "Press Start 2P", cursive;
   position: absolute;
   top: 30px;
   left: 30px;
 }
 
 .rules {
+  font-family: "Press Start 2P", cursive;
   position: absolute;
   top: 0;
   left: 0;
-  background: #333;
+  background: #52307c;
   color: #fff;
   min-height: 100vh;
   width: 400px;
